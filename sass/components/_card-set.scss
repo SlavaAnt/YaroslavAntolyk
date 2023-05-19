@@ -1,0 +1,12 @@
+.card-set {
+  @extend %list;
+
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--indent-row); //відступ між рядками
+  column-gap: var(--indent-column); //відступ між колонками
+}
+
+.card-set__item {
+  flex-basis: calc((100% - (var(--items) - 1) * var(--indent-column)) / var(--items));
+}

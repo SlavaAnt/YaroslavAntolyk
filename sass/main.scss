@@ -1,0 +1,31 @@
+// utils styles
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+
+// base styles
+@import "./base/resets";
+@import "./base/base";
+@import "./base/container";
+
+// layout styles
+@import "./layouts/header";
+@import "./layouts/navigation";
+@import "./layouts/hero";
+@import "./layouts/about";
+// @import './layouts/solutions';
+
+@import "./layouts/footer";
+
+// components styles
+
+@import "./components/logo";
+@import "./components/button";
+// @import './components/slider';
+@import "./components/card-set";
+@import "./components/socials";
+// @import './components/media';
+// @import './components/modals';
+@import "./components/team-card";
+@import "./components/form";
